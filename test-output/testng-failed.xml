@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.acti.Testcases.TestValidateLogin2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="precondition"/>
+        </methods>
+      </class> <!-- com.acti.Testcases.TestValidateLogin2 -->
+      <class name="com.acti.Testcases.TestValidateLogin">
+        <methods>
+          <include name="tearDown"/>
+          <include name="precondition"/>
+        </methods>
+      </class> <!-- com.acti.Testcases.TestValidateLogin -->
+      <class name="com.acti.Testcases.TestHomePage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="precondition"/>
+        </methods>
+      </class> <!-- com.acti.Testcases.TestHomePage -->
+      <class name="com.acti.Testcases.TestAddProcuctToCart">
+        <methods>
+          <include name="preCondition"/>
+          <include name="testAddProcuctToCartFunctionality"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.acti.Testcases.TestAddProcuctToCart -->
+      <class name="com.acti.Testcases.TestValidateLoginFromExcel">
+        <methods>
+          <include name="tearDown"/>
+          <include name="precondition"/>
+        </methods>
+      </class> <!-- com.acti.Testcases.TestValidateLoginFromExcel -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
