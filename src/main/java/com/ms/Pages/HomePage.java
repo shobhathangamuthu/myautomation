@@ -9,6 +9,9 @@ import com.ms.Base.DriverScript;
 import com.ms.utility.Helper;
 
 public class HomePage extends DriverScript {
+	
+	
+	//This is created for selenium batch
 	@FindBy(xpath=".//*[@id='header_logo']/a/img")
 	private WebElement imgLogo;
 
